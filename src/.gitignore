@@ -444,6 +444,7 @@ $RECYCLE.BIN/
 .idea/
 *.sln.iml
 
+dagaren@shaka ~/source/fsharp/morfgage/src (poc)$ vim .git
 ##
 ## Visual Studio Code
 ##

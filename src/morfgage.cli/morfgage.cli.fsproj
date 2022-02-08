@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="Functions.fs" />
     <Compile Include="Commands.fs" />
     <Compile Include="Parsing.fs" />
     <Compile Include="ParsingCommands.fs" />
@@ -14,6 +16,7 @@
 
   <ItemGroup>
     <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="FsToolkit.ErrorHandling" Version="2.13.0" />
   </ItemGroup>
 
 </Project>
